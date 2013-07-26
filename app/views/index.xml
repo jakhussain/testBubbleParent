@@ -1,13 +1,13 @@
 <Alloy>
 	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
+		
 		<TableView id="tblView" onClick="tblView_click">
 			<TableViewRow id="row1">
-				<View id="view" backgroundColor="red" width="20" height="20"/>
+				<Label id="label" onClick="doClick">Hello, World</Label>
 			</TableViewRow>
 			<TableViewRow id="row2">
 				<View id="view" backgroundColor="yellow" width="20" height="20"/>
-				<Button id="btnBubble" bubbleParent ="false" onClick = "ButtonClick"></Button>
+				<Button id="btnBubble" onClick = "ButtonClick">Button</Button>
 			</TableViewRow>
 		</TableView>
 	</Window>
